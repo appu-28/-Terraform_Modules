@@ -7,7 +7,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "workspacesbucket002"
+    bucket = "workspace002"
     key    = "development.statefile"
     region = "us-east-1"
     #dynamodb_table = "dynamodb-state-locking"
